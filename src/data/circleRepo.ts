@@ -8,7 +8,6 @@ export interface Circle {
     code: string
     members: string[]
     story: string
-    status: CircleStatus
     settings: {
         maxMembers: number
         minMembers: number
